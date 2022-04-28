@@ -1,5 +1,8 @@
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "rome.rome",
-  "rome.formatter.formatWithSyntaxErrors": true
+  "rome.formatter.formatWithSyntaxErrors": true,
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }

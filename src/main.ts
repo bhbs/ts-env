@@ -1,11 +1,3 @@
-import makeFetchCookie from "fetch-cookie";
+import { v4 } from "./uuid/v4";
 
-(async () => {
-  const fetchCookie = makeFetchCookie(fetch);
-
-  const response = await fetchCookie("https://google.com").then((res) =>
-    res.text()
-  );
-
-  console.log(response);
-})();
+console.log(v4());
