@@ -6,6 +6,7 @@ specifiers:
   esbuild-register: ^3.3.2
   fetch-cookie: ^2.0.3
   rome: ^0.5.0-next
+  twitter-api-sdk: ^1.0.6
   typescript: ^4.6.3
   vite: ^2.9.7
   vitest: ^0.10.2
@@ -16,6 +17,7 @@ dependencies:
   esbuild-register: 3.3.2_esbuild@0.14.38
   fetch-cookie: 2.0.3
   rome: 0.5.0-next
+  twitter-api-sdk: 1.0.6
   typescript: 4.6.4
   vite: 2.9.7
   vitest: 0.10.2
@@ -381,6 +383,18 @@ packages:
     hasBin: true
     dev: false
 
+  /node-fetch/2.6.7:
+    resolution: {integrity: sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+    dependencies:
+      whatwg-url: 5.0.0
+    dev: false
+
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
     dev: false
@@ -475,6 +489,19 @@ packages:
       universalify: 0.1.2
     dev: false
 
+  /tr46/0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    dev: false
+
+  /twitter-api-sdk/1.0.6:
+    resolution: {integrity: sha512-nI0vU84fCMoL8fSrqGsH9DT5nj5oPSd4Z0dFyDSWuo0DnxzPp58u47cH+AsC6CdI25l9jKTq3j6CKnq/0C1l+g==}
+    engines: {node: '>=14'}
+    dependencies:
+      node-fetch: 2.6.7
+    transitivePeerDependencies:
+      - encoding
+    dev: false
+
   /type-detect/4.0.8:
     resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
     engines: {node: '>=4'}
@@ -545,4 +572,15 @@ packages:
       - less
       - sass
       - stylus
+    dev: false
+
+  /webidl-conversions/3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    dev: false
+
+  /whatwg-url/5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1
     dev: false
