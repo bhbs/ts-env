@@ -5,7 +5,7 @@ specifiers:
   esbuild: ^0.14.28
   esbuild-register: ^3.3.2
   fetch-cookie: ^2.0.3
-  rome: ^0.5.0-next
+  rome: 0.8.0-next
   twitter-api-sdk: ^1.0.6
   typescript: ^4.6.3
   vite: ^2.9.7
@@ -16,7 +16,7 @@ dependencies:
   esbuild: 0.14.38
   esbuild-register: 3.3.2_esbuild@0.14.38
   fetch-cookie: 2.0.3
-  rome: 0.5.0-next
+  rome: 0.8.0-next
   twitter-api-sdk: 1.0.6
   typescript: 4.6.4
   vite: 2.9.7
@@ -24,48 +24,48 @@ dependencies:
 
 packages:
 
-  /@rometools/cli-darwin-arm64/0.5.0-next:
-    resolution: {integrity: sha512-dzwIOxvSNPD70DJYzyrxs0DLqUd4p+wDJM/AmHKGTxYJSdQahEG5/scnqfwIGiaSpKP/qNIv4+7Hd0aSaQF0NQ==}
+  /@rometools/cli-darwin-arm64/0.8.0-next:
+    resolution: {integrity: sha512-aCUC8ZT4roRrFPESg7C8c+ltgKE//Nq6npSpp9uumlagV+kLWB4h84cCFm/cI6RGITR2dHLk/0tYqn23v5CsSg==}
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@rometools/cli-darwin-x64/0.5.0-next:
-    resolution: {integrity: sha512-DXb/5PxNvD4ENb0oKiWnV2Zfww+yyZ5Q/ADUQqF1TsQjy8l7+4uiY618Wxo7KfH4y2uJA8b7wnly16bSw44F5g==}
+  /@rometools/cli-darwin-x64/0.8.0-next:
+    resolution: {integrity: sha512-A+oFzh5bNj3lNbyDuw9u2spWlRW48goI6Hce+CCgmwmZjItqIPLQ7Ayh78VlaK5Xra60hv7iOkcuP4TtnzAqvw==}
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@rometools/cli-linux-arm64/0.5.0-next:
-    resolution: {integrity: sha512-1vWKrnQgBgTBeQZquphsmqdCudX4GuwugaQbQVmpCQa+WfKpAe8SAQIJz5G5G3m9uYQRUfwS2AXXEWuMCVHSZQ==}
+  /@rometools/cli-linux-arm64/0.8.0-next:
+    resolution: {integrity: sha512-7jpBnS1kHzGITgxwvUmESu1NwwZnXBy3pJXuzRagjcOO++tb/odS03zaL76ZYgryejJb9bk9R3hIjHA5V8r6kA==}
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@rometools/cli-linux-x64/0.5.0-next:
-    resolution: {integrity: sha512-rKLhodWhYdMmVtIN1mZFxEFTbTiceat6NJUBGbsLHrjQVZ9h9tw8LlK/Lx8dBpzH5j093xKModnxZDFeIYyHLQ==}
+  /@rometools/cli-linux-x64/0.8.0-next:
+    resolution: {integrity: sha512-QZlps3X+fljrhQMYnpAepQsow1ijBUhDg2M470jEAniysvhDzXUFcoOBmYaW7EgL7A/B3HPXG2liBWW0bRIz4w==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@rometools/cli-win32-arm64/0.5.0-next:
-    resolution: {integrity: sha512-XDVcPeTAvR9KgCqJQYLkhG2cb5XhsY1ZQUKSGsruxB257spkizb2M299VvLaSKVD7pDakG8Vk0JN3lPXdn0zdQ==}
+  /@rometools/cli-win32-arm64/0.8.0-next:
+    resolution: {integrity: sha512-2oJqerUvtWZ16UNPOdwUnNoSPbwG+awNyMg6tF+IHLrl6Ag0c8H3idNnNlosAkSfCttRV2iakL+Ac2NXaGF4Bw==}
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
     dev: false
     optional: true
 
-  /@rometools/cli-win32-x64/0.5.0-next:
-    resolution: {integrity: sha512-kZeH17xLyQeAD+Y3vAPFuFnF7RxaCmtN/WSfB4mobje5HsAIqP6YPA7Gxpex/fJhv3rRWyNMTvrZEtDn5ogjHw==}
+  /@rometools/cli-win32-x64/0.8.0-next:
+    resolution: {integrity: sha512-xMFNgNxWO9LzAblR6ykphFZg0DF44tTg3ATWH/uJxcI2PycGgvUTgIe8pb4dwCYrtQRDKfbnpoxkut70cAD3lQ==}
     cpu: [x64]
     os: [win32]
     requiresBuild: true
@@ -442,18 +442,18 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /rome/0.5.0-next:
-    resolution: {integrity: sha512-Y5LmDdSeu35DrqJRQnNHSmZcL6yOyHUhJLKevZN5xXW4GnPwHMLF8rUahnhgAugD5wmyGYAgakwKWA64n6yxkg==}
-    engines: {node: '>=14.18.0'}
+  /rome/0.8.0-next:
+    resolution: {integrity: sha512-MDF3HtC1SujDb7orxVlEdrQhsdtzifJjh6umsOhUhv6gFKmyIUnY31kb/lT2yXhSfqIRAm8vWq6e6QixlDa9aw==}
+    engines: {node: '>=14.*'}
     hasBin: true
     requiresBuild: true
     optionalDependencies:
-      '@rometools/cli-darwin-arm64': 0.5.0-next
-      '@rometools/cli-darwin-x64': 0.5.0-next
-      '@rometools/cli-linux-arm64': 0.5.0-next
-      '@rometools/cli-linux-x64': 0.5.0-next
-      '@rometools/cli-win32-arm64': 0.5.0-next
-      '@rometools/cli-win32-x64': 0.5.0-next
+      '@rometools/cli-darwin-arm64': 0.8.0-next
+      '@rometools/cli-darwin-x64': 0.8.0-next
+      '@rometools/cli-linux-arm64': 0.8.0-next
+      '@rometools/cli-linux-x64': 0.8.0-next
+      '@rometools/cli-win32-arm64': 0.8.0-next
+      '@rometools/cli-win32-x64': 0.8.0-next
     dev: false
 
   /set-cookie-parser/2.4.8:
