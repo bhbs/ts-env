@@ -1,6 +1,9 @@
 import { Client } from "twitter-api-sdk";
 
-const client = new Client("");
+import { config } from "dotenv";
+config();
+
+const client = new Client(process.env.TWITTER_TOKEN!);
 
 async function main() {
   await removeAllRules();
