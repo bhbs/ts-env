@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': ^17.0.29
+  dotenv: ^16.0.3
   esbuild: ^0.14.28
   esbuild-register: ^3.3.2
   fetch-cookie: ^2.0.3
@@ -13,6 +14,7 @@ specifiers:
 
 dependencies:
   '@types/node': 17.0.31
+  dotenv: 16.0.3
   esbuild: 0.14.38
   esbuild-register: 3.3.2_esbuild@0.14.38
   fetch-cookie: 2.0.3
@@ -112,6 +114,11 @@ packages:
     engines: {node: '>=0.12'}
     dependencies:
       type-detect: 4.0.8
+    dev: false
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
     dev: false
 
   /esbuild-android-64/0.14.38:
