@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^17.0.29
+  '@types/node': ^18.11.4
   dotenv: ^16.0.3
   esbuild: ^0.14.28
   esbuild-register: ^3.3.2
@@ -13,7 +13,7 @@ specifiers:
   vitest: ^0.10.2
 
 dependencies:
-  '@types/node': 17.0.31
+  '@types/node': 18.11.4
   dotenv: 16.0.3
   esbuild: 0.14.38
   esbuild-register: 3.3.2_esbuild@0.14.38
@@ -84,8 +84,8 @@ packages:
     resolution: {integrity: sha512-/zPMqDkzSZ8t3VtxOa4KPq7uzzW978M9Tvh+j7GHKuo6k6GTLxPJ4J5gE5cjfJ26pnXst0N5Hax8Sr0T2Mi9zQ==}
     dev: false
 
-  /@types/node/17.0.31:
-    resolution: {integrity: sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==}
+  /@types/node/18.11.4:
+    resolution: {integrity: sha512-BxcJpBu8D3kv/GZkx/gSMz6VnTJREBj/4lbzYOQueUOELkt8WrO6zAcSPmp9uRPEW/d+lUO8QK0W2xnS1hEU0A==}
     dev: false
 
   /assertion-error/1.1.0:

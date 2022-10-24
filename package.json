@@ -6,7 +6,7 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
-    "@types/node": "^17.0.29",
+    "@types/node": "^18.11.4",
     "dotenv": "^16.0.3",
     "esbuild": "^0.14.28",
     "esbuild-register": "^3.3.2",
